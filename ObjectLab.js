@@ -38,7 +38,7 @@ console.log(dog.name)
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
 
 //Code here
-console.log (dog.["color"]);
+console.log (dog["color"]);
 
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
@@ -48,12 +48,25 @@ console.log (dog.["color"]);
 */
 
 //Code here
+let favoriteThings = {
+  band: `mountain`,
+  food: `hamburgers`,
+  person: `mom`,
+  book: `rangers apprentice`,
+  movie: 'surfs up',
+  holiday: `christmas`,
+}
 
 
 /*
-  After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
+  After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' 
+  with the value being your favorite show.
 */
+favoriteThings.car = `flyingcar`;
 
+for (let x in favoriteThings){
+  console.log (`my favorit ${x} is ${favoriteThings [x]}`)
+}
 //Code here
 
 
@@ -66,6 +79,7 @@ console.log (dog.["color"]);
 
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
+console.log(`======================================================`)
 
 // Do not edit the code below.
 var carDetails = {
@@ -79,11 +93,17 @@ var carDetails = {
 /*
   Use object destructuring to save the property values from the object carDetails into new variables. 
 */
-
 //Code Here
+for (let x in carDetails){
+  console.log (`carDetails ${x} is ${carDetails [x]}`)
+}
+let {color : color2} = carDetails;
+let {make : make2} = carDetails;
+let {model : model2} = carDetails;
+let {year : year2} = carDetails;
+ console.log(`The car is a ${color2} ${make2} ${model2} ${year2}`)
 
-
-
+console.log(`=========================================================`)
 //////////////////////////// PROBLEM 7 ////////////////////////////
 
 /*
