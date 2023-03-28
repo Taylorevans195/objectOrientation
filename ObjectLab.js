@@ -21,7 +21,9 @@ let me = {
 //Code here
 let dog = {
   name: `Max`,
-  
+  color:`brown`,
+  age: 12,
+  goodboy: true
 }
 
 
