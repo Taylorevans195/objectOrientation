@@ -5,7 +5,7 @@
 */
 
 //Code here
-const me = {
+let me = {
   name: `Taylor`,
   age: 23
 }
@@ -19,7 +19,10 @@ const me = {
 //and goodBoy/goodGirl (a boolean).
 
 //Code here
-
+let dog = {
+  name: `Max`,
+  
+}
 
 
 //////////////////////////// PROBLEM 3 ////////////////////////////
