@@ -38,7 +38,7 @@ console.log(dog.name)
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
 
 //Code here
-
+console.log (dog.["color"]);
 
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
